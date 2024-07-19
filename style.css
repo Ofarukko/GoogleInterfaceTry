@@ -1,0 +1,74 @@
+body {
+    background-color:rgb(56, 62, 66) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+header {
+	position: absolute;
+	top:1em;
+	right:30px;
+}
+
+header a:link, a:visited, a:active {
+    color: white;
+    font-family: arial, sans-serif;
+    font-size:1em;
+    text-decoration:none;
+    margin-right:5px;
+	margin-left:5px;
+	position:relative;
+	top:-5px;
+}
+
+div {
+	display:block;
+	margin: auto;
+	text-align:center;
+	padding-top: 8%;
+}
+
+div img {
+	width: 250;
+	height: 95px;
+	margin:1rem auto;
+}
+
+.search {
+    height: 45px;
+    width: 600px;
+    border: 1px solid whitesmoke;
+    border-radius: 50px;
+    font-size: 16px;
+    outline: none;
+    background-color: rgb(56, 62, 66);
+}
+.button{
+    background-color: gray;
+    border:0.5px solid whitesmoke;
+    color:whitesmoke;
+    font-size:15px;
+    padding: 10px 20px;
+    align-items: center;
+    margin:1rem auto;
+    border-radius:4px;
+    outline:none;
+    
+}
+  .button:hover{
+    border: 1px solid #aaaaaa;
+}
+    .button:focus{
+    border: 1px solid #aaaaaa;
+}
+  
+.search:hover {
+	border: 1px solid #aaaaaa;
+}
+
+input{
+    font-size: 20px;
+	font-family: sans-serif;
+	padding: 10px;
+	margin: 10px;
+    color: white;
+}
